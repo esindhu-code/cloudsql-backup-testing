@@ -11,8 +11,7 @@ This Terraform module automates the setup of Google Cloud resources for automate
 ---
 
 ## Resources Created
-1. **Pub/Sub Topic**:
-   - Topic to trigger Cloud SQL backups and receive alerts for failures.
+
 2. **Cloud Function**:
    - Processes Pub/Sub messages and triggers Cloud SQL backups.
    - Handles retries and publishes alerts for persistent failures.
